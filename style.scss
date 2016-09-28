@@ -6,6 +6,18 @@ body {
   margin: 50px auto;
   width: 512px;
 }
+.big-container{
+    display:inline-block
+}
+
+.template{
+    display: block;
+   
+}
+.mld-card{
+    width:33%;
+}
+
 .mdl-card + .mdl-card {
   margin-top: 40px;
 }
@@ -22,6 +34,7 @@ body {
     left: 0;
     position: absolute;
     width: 150px;
+    background: transparent;
   }
   
   .mdl-card__supporting-text {

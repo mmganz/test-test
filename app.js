@@ -19,8 +19,7 @@ function drawSongs(songList){
     </div>
     <div class="mdl-card__supporting-text">
     <p>${songs.artist}</p>
-    <p>${songs.collection}</p>
-    <p>$${songs.price}</p>
+    <p>${songs.collection}      ${songs.price}</p>
     </div>
 </div>
   </div>

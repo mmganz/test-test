@@ -1,14 +1,50 @@
-.template{
-//outline:1px solid red;
- display:inline-block;
+html {
+  width: 100%;
+}
+body {
+  background: transparent;
+  margin: 50px auto;
+  width: 512px;
+}
+.mdl-card + .mdl-card {
+  margin-top: 40px;
 }
 
-.card{
-    border:none;
-    margin:25px;
+// Card styles
+
+.mdl-card--horizontal {
+  flex-direction: column;
+  height: 1vh; /* 1 */
+  padding-left: 150px;
+  width: 100%;
+  
+  .mdl-card__media {
+    left: 0;
+    position: absolute;
+    width: 150px;
+  }
+  
+  .mdl-card__supporting-text {
+    flex: 1 1 auto;
+    width: auto;
+  }
 }
 
-img{
-    width: 100%;
-    filter: blur(1px);
-}
+
+
+
+
+// .template{
+// //outline:1px solid red;
+//  display:inline-block;
+// }
+
+// .card{
+//     border:none;
+//     margin:25px;
+// }
+
+// img{
+//     width: 100%;
+//     filter: blur(1px);
+// }
